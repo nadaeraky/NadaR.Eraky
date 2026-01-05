@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nada Refaat Eraky | Front-End Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway+Dots&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source
+          src="./assets/vedio/clideo_editor_2ca4b18da2204980ac22ffc390e6483f.mp4"
+        />
+      </video>
+
+      <header class="header">
+        <div class="container">
+          <div class="nav-wrapper">
+            <nav class="nav-desktop">
+              <a href="#Bio" class="nav-link">Bio</a>
+              <a href="#skills" class="nav-link">Skills</a>
+              <a href="#Projects" class="nav-link">Projects</a>
+              <a href="#testmotional" class="nav-link">Testmotional</a>
+              <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="logo">
+              <button class="theme-toggle" id="themeToggle">
+                <i class="fas fa-sun"></i>
+              </button>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <nav class="nav-mobile" id="mobileNav">
+          <a href="#Bio" class="nav-link">Bio</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#Projects" class="nav-link">Projects</a>
+          <a href="#testmotional" class="nav-link">Testmotional</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </header>
+
+      <article id="Bio">
+        <div class="developer_information">
+          <h1>Hi There!, <br /><span id="typed-text"></span></h1>
+          <p>
+            My name is <span class="bio_name">Nada Refaat Eraky</span>. I'am a
+            2025 graduate of the
+            <span class="fucalty-name"
+              >Faculty of Management Technology and Information Systems</span
+            >
+            with <span class="degree">High Distinction and Honors</span>. To
+            further my expertise, I am currently pursuing a
+            <span class="Postgraduate"
+              >Postgraduate Diploma in Information Systems (IS) at Damietta
+              University</span
+            >, while simultaneously completing a professional
+            <span class="Postgraduate">Front-End Web Development Diploma</span>
+            to master modern frameworks like React and TypeScript.
+          </p>
+          <div class="developer-btn">
+            <a href="#Bio" class="btn">Say Hello</a>
+            <a href="./NADA REFAAT ERAKY_cv.pdf" class="btn primary-btn"
+              >Download CV <span class="down_arrow"> ↓</span></a
+            >
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <section class="skills-section section" id="skills">
+      <video class="dark-mode-bg-video" autoplay loop muted playsinline>
+        <source src="./assets/vedio/your-video.mp4" type="video/mp4" />
+      </video>
+      <div class="container">
+        <h2 class="h2-title animate-on-scroll">Skills</h2>
+        <div class="skill-container">
+          <div class="skill" data-aos="zoom-in-up">
+            <img src="assets/images/html-removebg-preview.png" alt="HTML" />
+            <h3>HTML</h3>
+            <p>3 years</p>
+          </div>
+          <div class="skill" data-aos="zoom-in-up">
+            <img src="assets/images/css_photo-removebg-preview.png" alt="CSS" />
+            <h3>CSS</h3>
+            <p>3 years</p>
+          </div>
+          <div class="skill" data-aos="zoom-in-up">
+            <img src="assets/images/js.png" alt="JavaScript" />
+            <h3>JavaScript</h3>
+            <p>1 year</p>
+          </div>
+          <div class="skill" data-aos="zoom-in-up">
+            <img
+              src="assets/images/boot-removebg-preview.png"
+              alt="Bootstrap"
+            />
+            <h3>Bootstrap</h3>
+            <p>3 years</p>
+          </div>
+          <div class="skill" data-aos="zoom-in-up">
+            <img
+              src="assets/images/paython-removebg-preview.png"
+              alt="Python"
+            />
+            <h3>Python</h3>
+            <p>2 years</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container" id="Projects">
+      <section class="project-section">
+        <div class="container">
+          <h2 class="h2-title">MY FEATURED<br />PROJECTS</h2>
+          <div class="projects">
+            <div class="project" data-aos="fade-up">
+              <img src="./assets/images/calc.png" alt="Calculator Project" />
+
+              <div class="project-info">
+                <h2>Calculator</h2>
+                <p>
+                  A sleek and functional calculator application with advanced
+                  mathematical operations. Features include keyboard support and
+                  history tracking.
+                </p>
+                <a
+                  href="https://na124542.github.io/calculato/"
+                  target="_blank"
+                  class="btn"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project" data-aos="fade-up">
+              <img
+                src="./assets/images/Illustration 1.jpg"
+                alt="LasLesVPN Project"
+              />
+              <div class="project-info">
+                <h2>LasLesVPN</h2>
+                <p>
+                  LaslesVPN is a modern, responsive landing page designed to
+                  showcase a Virtual Private Network service with a clean and
+                  professional user interface. Built using HTML and CSS, the
+                  project features interactive elements like pricing tables and
+                  testimonials, ensuring a seamless experience across all device
+                  sizes
+                </p>
+                <a
+                  href="https://nadaeraky.github.io/laslesVPN/"
+                  target="_blank"
+                  class="btn"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project" data-aos="fade-up">
+              <img src="assets/images/HOMETECH.png" alt="homeTech Project" />
+              <div class="project-info">
+                <h2>Home Tech</h2>
+                <p>
+                  Graduation Project – HomeTech2025 I worked as a Front-End
+                  Developer as part of a team on my graduation project,
+                  HomeTech2025, a web-based home services platform. I was
+                  responsible for building responsive and user-friendly
+                  interfaces using HTML, CSS, and JavaScript.
+                </p>
+                <a
+                  href="http://www.hometech2025.rf.gd/"
+                  target="_blank"
+                  class="btn"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project" data-aos="fade-up">
+              <img src="assets/images/snacksypro.png" alt="Snacksy Project" />
+              <div class="project-info">
+                <h2>Snacksy</h2>
+                <p>
+                  A modern food delivery platform with responsive design,
+                  interactive UI elements, and smooth user experience. Built
+                  with HTML, CSS, and JavaScript.
+                </p>
+                <a
+                  href="https://na124542.github.io/snacksy/"
+                  target="_blank"
+                  class="btn"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project" data-aos="fade-up">
+              <img
+                src="./assets/images/styleloompro.png"
+                alt="Style Bella Project"
+              />
+              <div class="project-info">
+                <h2>BellaStyle</h2>
+                <p>
+                  An elegant fashion e-commerce platform with modern design
+                  principles. Includes product galleries and shopping cart
+                  functionality.
+                </p>
+                <a
+                  href="https://na124542.github.io/style-bella/"
+                  target="_blank"
+                  class="btn"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+
+            <div class="project" data-aos="fade-up">
+              <img
+                src="./assets/images/bg_background.jpg"
+                alt="OneStopShop Project"
+              />
+              <div class="project-info">
+                <h2>OneStopShop</h2>
+                <p>
+                  A modern digital storefront featuring a user-friendly product
+                  catalog, interactive shopping cart, and a clean, responsive
+                  layout.
+                </p>
+                <a
+                  href="https://na124542.github.io/OneStopShop_E-Commerce/"
+                  target="_blank"
+                  class="btn"
+                  >Live Demo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section
+      id="testmotional"
+      class="section clients"
+      data-aos="fade-up"
+      data-aos-delay="200"
+    >
+      <video class="dark-mode-bg-video" autoplay loop muted playsinline>
+        <source src="./assets/vedio/your-video.mp4" type="video/mp4" />
+      </video>
+      <div class="container">
+        <h2 class="h2-title">What My <br />Clients Says.</h2>
+
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <div
+              class="clients__opinion"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p class="clients__opinion-text">
+                Nada Eraky has the exceptional ability to grasp complex problems
+                and deliver high-quality solutions efficiently. As a Front-end
+                Developer, Nada consistently demonstrates expertise in building
+                responsive interfaces.
+              </p>
+              <div class="clients__opinion-footer">
+                <div class="clients__opinion-avatar">A</div>
+                <div class="clients__opinion-info">
+                  <span class="clients__opinion-name">DR/Ahmed Saleh</span>
+                  <span class="clients__opinion-role"
+                    >D.Computer Engineering</span
+                  >
+                </div>
+                <div class="clients__opinion-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="clients__opinion"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <p class="clients__opinion-text">
+                Nada Eraky will patiently listen to your ideas and provide
+                creative input. In the end, she often delivers something better
+                than expected—you'll always love the final result.
+              </p>
+              <div class="clients__opinion-footer">
+                <div class="clients__opinion-avatar">K</div>
+                <div class="clients__opinion-info">
+                  <span class="clients__opinion-name"
+                    >prof.Dr.Khaled Fawzy</span
+                  >
+                  <span class="clients__opinion-role"
+                    >Leader of the Higher Institute of Engineering and
+                    Technology</span
+                  >
+                </div>
+                <div class="clients__opinion-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="clients__opinion"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <p class="clients__opinion-text">
+                One of Nada's greatest strengths is the ability to take
+                initiatives both on a personal and team level, successfully
+                driving them to completion.
+              </p>
+              <div class="clients__opinion-footer">
+                <div class="clients__opinion-avatar">J</div>
+                <div class="clients__opinion-info">
+                  <span class="clients__opinion-name">Eng.Jana Taha</span>
+                  <span class="clients__opinion-role">IT Engineering</span>
+                </div>
+                <div class="clients__opinion-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="flip-left">
+      <div class="container">
+        <div class="contact__contactInfo">
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a href="mailto:nadaeraky14@gmail.com" class="contact__email">
+            <i class="fas fa-envelope"></i>
+            nadaeraky@gmail.com
+          </a>
+          <div class="contact__social">
+            <a
+              href="https://www.linkedin.com/in/nada-refaat-eraky-358840345"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://t.me/Nadaeraky" target="_blank">
+              <i class="fab fa-telegram"></i>
+            </a>
+            <a href="https://wa.me/01066984972" target="_blank">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/share/19hZryrYMT/"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact__formContact">
+          <h2 class="h2-title">Let's Work Together!</h2>
+          <form id="contactForm">
+            <div class="form-row">
+              <input
+                class="contact__input"
+                type="text"
+                name="name"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                class="contact__input"
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
+            </div>
+            <textarea
+              class="contact__input Contact__textArea"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button class="btn" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2025 by
+          <a
+            href="https://www.linkedin.com/in/nada-refaat-eraky-358840345"
+            target="_blank"
+            >Nada Eraky</a
+          >. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
